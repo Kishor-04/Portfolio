@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I’m skilled in Full Stack Development (MERN) | Machine Learning Enthusiast",
   summary:
-    " A Final Year Information Technology student, passionate about creating solutions to real-world problems. Focused on integrating full-stack applications with Machine Learning models to build impactful systems. Known for strongleadership, teamwork, adaptability, and a continuous learning mindset.",
+    " A Final Year Information Technology student, passionate about creating solutions to real-world problems. Focused on integrating full-stack applications with Machine Learning models to build impactful systems. Known for strong leadership, teamwork, adaptability, and a continuous learning mindset.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -197,7 +197,7 @@ export const DATA = {
       dates: "April 2025 - June 2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "IdeaTech Ecommerce is the official e-commerce platform of K.K.Wagh Institute of Engineering ,Education and Research,Nashik, created to showcase and sell innovative, high-quality products crafted by students and faculty using advanced fabrication machines available in our campus's innovation labs and maker spaces.",
       technologies: [
         "MERN",
         "TailwindCSS",
