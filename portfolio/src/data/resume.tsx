@@ -11,7 +11,7 @@ export const DATA = {
     "I’m skilled in Full Stack Development (MERN) | Machine Learning Enthusiast",
   summary:
     " A Final Year Information Technology student, passionate about creating solutions to real-world problems. Focused on integrating full-stack applications with Machine Learning models to build impactful systems. Known for strongleadership, teamwork, adaptability, and a continuous learning mindset.",
-  avatarUrl: "/me.png", 
+  avatarUrl: "/me.png",
   skills: [
     "React",
     "TailwindCSS",
@@ -111,25 +111,26 @@ export const DATA = {
     {
       title: "IdeaTech",
       href: "https://ideatech.onrender.com/",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "April 2024 - June 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Led the development of an interactive platform for my college’s Idealab, approved for student use. Dynamic guides for machines such as PCB laser cutting and 3d printing. Manages labs and machine access permission requests, uploading newsletters, and granting teacher access for workshop invitations. Provides the idealab machine products selling ecommerce platform",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "MERN",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Figma",
+        "Cloudinary",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://ideatech.onrender.com/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Kishor-04/IdeaTech-React",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -139,29 +140,23 @@ export const DATA = {
     {
       title: "Journey Sphere",
       href: "https://journeysphere-fe.onrender.com/",
-      dates: "June 2023 - Present",
+      dates: "June 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Journey Sphere Travels is your one-stop destination for planning unforgettable adventures around the globe. Whether you’re dreaming of serene beaches, bustling cities, exotic escapes, or cultural explorations, we craft personalized travel experiences tailored just for you.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "MERN",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://journeysphere-fe.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Kishor-04/MERN-JourneySphere-ATravelAcencyWebsite",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -171,20 +166,15 @@ export const DATA = {
     {
       title: "Transformer Go",
       href: "https://transformer-84q4.onrender.com/",
-      dates: "April 2023 - September 2023",
+      dates: "March 2025 - April 2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+         "Built a physical transformer manufacturing measurement Full stack app with machine learning model for error detection. Provides the measurement of the transformer on entering desired outputs. Implemented error prediction model using RandomForestRegressor.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "MERN",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Flask",
+        "Machine Learning",
       ],
       links: [
         {
@@ -194,7 +184,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/VAIBHAVSING/TransformerApp",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -204,26 +194,26 @@ export const DATA = {
     {
       title: "Ecommerce",
       href: "https://ideatech.onrender.com/ecommerce",
-      dates: "April 2023 - March 2024",
+      dates: "April 2025 - June 2025",
       active: true,
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "MERN",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Cloudinary",
+        "Figma"
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://ideatech.onrender.com/ecommerce",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Kishor-04/IdeaTech-React/tree/master/Frontend/src/pages/Ecommerce",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
@@ -232,6 +222,6 @@ export const DATA = {
     },
   ],
   hackathons: [
-    
+
   ],
 } as const;
