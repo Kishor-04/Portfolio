@@ -17,6 +17,8 @@ export const DATA = {
     "TailwindCSS",
     "Typescript",
     "Node.js",
+    "Express.js",
+    "MongoDB",
     "Python",
     "Machine Learning",
     "Docker",
@@ -24,7 +26,6 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "kishorpatil.connect@gmail.com",
@@ -53,13 +54,13 @@ export const DATA = {
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://dub.sh/kishor-youtube",
         icon: Icons.youtube,
         navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "https://kishorpatil.connect@gmail.com",
+        url: "mailto:kishorpatil.connect@gmail.com",
         icon: Icons.email,
 
         navbar: true,
